@@ -5,7 +5,7 @@
 <h2 align="center">Hi there👋, Enjoy with the World of Open source contribution </h2>
 
 
-<p>Hello Coders👨‍💻 ,I am Arpan Chowdhury, a aspiring Web developer.🤖 Here is the project of the front-end Web Developement. We all use the most famous Application in our phone named  STOPWATCH. So, here is the frontend clone of the landing page👆🏻 .I welcome you all to contribute in this repository & make this a grand project. So, what are you waiting for??🤔Just jump into it after reading the guidelines📚</p>
+<p>Hello Coders👨‍💻 ,I am Arpan Chowdhury, a aspiring Web developer.🤖 Here is the project of the front-end Web Developement. We all use the most famous Application in our phone named STOPWATCH.I welcome you all to contribute in this repository & make this a grand project. So, what are you waiting for??🤔Just jump into it after reading the guidelines📚</p>
 <table align="center">
     <thead align="center">
         <tr border: 1px;>
