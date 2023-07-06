@@ -1,13 +1,13 @@
 <h1 align="center"> Stopwatch </h1>
 
-<div align="center">
+<div>
 <br>
-<h2 align="center">Hi there👋, Enjoy with the World of Open source contribution </h2>
+<h2>Hi there👋, Enjoy with the World of Open source contribution </h2>
 
 
 <p>Hello Coders👨‍💻 ,I am Arpan Chowdhury, a aspiring Web developer.🤖 Here is the project of the front-end Web Developement. We all use the most famous Application in our phone named STOPWATCH.I welcome you all to contribute in this repository & make this a grand project. So, what are you waiting for??🤔Just jump into it after reading the guidelines📚</p>
-<table align="center">
-    <thead align="center">
+<table>
+    <thead>
         <tr border: 1px;>
             <td><b>Project Stats</td>
             <td><b>🌟 Stars</b></td>
@@ -28,13 +28,35 @@ https://github.com/apu52/Stopwatch-maker/assets/114172928/2cc065fe-f0bd-4759-9fa
 
 -   Create an issue of the project or a feature you would like to add in the project and get the task assigned for youself. (issue can be any feature or project that you think you could contribute to).
 
--   Fork the repo to your Github.<br/>
+##   Fork the repo to your Github.<br/>
 
--   Clone the Repo by going to your local Git Client in a particular local folder in your local machine by using this command with your forked repository link in place of below given link: <br/>
-    ```
+ - **Step 1:-**   Clone the Repo by going to your local Git Client in a particular local folder in your local machine by using this command with your forked repository link in place of below given link: <br/>
+    ```bash
     git clone https://github.com/apu52/Stopwatch
--   Create a branch using below command.
     ```
+
+ - **Step 2:-**  Go inside Stopwatch Directory.
+    ```bash 
+    cd Stopwatch
+    ```
+
+- **Step 3:-**  Install packages dependencies, run following command in terminal / CMD
+    ```bash 
+    npm install
+    ```
+
+ - **Step 4:-** To run this project locally, run the following command
+    ``` bash
+    npm start
+    ```
+
+- **Step 5:-**  Open browser and go to      [localhost:5000](http://localhost:5000/)   
+
+   - *That's it Your Project setuped successfully for dev environment*
+
+## Now you can Create Specific branch to work on this project ->
+-   Create a branch using below command.
+    ```bash
     git branch <your branch name>
     ```
 -   Checkout to your branch.
