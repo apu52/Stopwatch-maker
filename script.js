@@ -1,5 +1,7 @@
 let [milliseconds, seconds, minutes, hours] = [0, 0, 0, 0];
 let timeRef = document.querySelector(".timer-display");
+let laps = document.querySelector("#laps-timer");
+let lapsItems = document.querySelector(".laps-items");
 let int = null;
 
 document.getElementById("start-timer").addEventListener("click", () => {
@@ -46,3 +48,23 @@ function displayTimer() {
 
   timeRef.innerHTML = `${h} : ${m} : ${s} : ${ms}`;
 }
+
+//  Inserting Laps 
+let i = 1;
+laps.addEventListener("click", () => {
+  if (milliseconds > 0) {
+      const newNode = document.createElement("li")
+      newNode.setAttribute("class", "items")
+      lapsItems.style.display = 'block'
+      const ele = `<h4>
+      Id: \u00A0 ${i} \u00A0\u00A0\u00A0\u00A0\  --------> \u00A0\u00A0\u00A0 \u00A0\u00A0\u00A0  ${timeRef.innerText}
+      </h4>`
+      // updating i
+      i = i + 1;
+      newNode.innerHTML = ele
+      lapsItems.prepend(newNode)
+  }
+  else {
+    alert("Start Timer First")
+  }
+})
